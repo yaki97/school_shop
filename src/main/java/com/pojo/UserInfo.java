@@ -1,6 +1,6 @@
 /**
  * UserInfo.java
- * Copyright 2019 天津亿网通达网络技术有限公司.
+ * Copyright 2019 .
  * All rights reserved.
  * Created on 2019-02-11 14:22
  */
@@ -13,40 +13,40 @@ package com.pojo;
  * @version 1.0.0, 2019-02-11 14:22
  **/
 public class UserInfo {
-    private Integer user_id;
-    private String user_name;
-    private String real_name;
+    private Integer userId;
+    private String userName;
+    private String realName;
     private String password;
-    private String phone_number;
-    private String contact_address;
-    private Integer user_type;
+    private String phoneNumber;
+    private String contactAddress;
+    private Integer userType;
     private Integer status;
 
     public UserInfo() {
     }
 
-    public Integer getUser_id() {
-        return user_id;
+    public Integer getUserId() {
+        return userId;
     }
 
-    public void setUser_id(Integer user_id) {
-        this.user_id = user_id;
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
-    public String getUser_name() {
-        return user_name;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setUser_name(String user_name) {
-        this.user_name = user_name;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
-    public String getReal_name() {
-        return real_name;
+    public String getRealName() {
+        return realName;
     }
 
-    public void setReal_name(String real_name) {
-        this.real_name = real_name;
+    public void setRealName(String realName) {
+        this.realName = realName;
     }
 
     public String getPassword() {
@@ -57,28 +57,28 @@ public class UserInfo {
         this.password = password;
     }
 
-    public String getPhone_number() {
-        return phone_number;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
-    public void setPhone_number(String phone_number) {
-        this.phone_number = phone_number;
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
-    public String getContact_address() {
-        return contact_address;
+    public String getContactAddress() {
+        return contactAddress;
     }
 
-    public void setContact_address(String contact_address) {
-        this.contact_address = contact_address;
+    public void setContactAddress(String contactAddress) {
+        this.contactAddress = contactAddress;
     }
 
-    public Integer getUser_type() {
-        return user_type;
+    public Integer getUserType() {
+        return userType;
     }
 
-    public void setUser_type(Integer user_type) {
-        this.user_type = user_type;
+    public void setUserType(Integer userType) {
+        this.userType = userType;
     }
 
     public Integer getStatus() {

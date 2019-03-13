@@ -3,17 +3,532 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="school_shop:war" />
+      <artifact name="school_shop:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9309a2f3-9400-45d0-982f-969d149494e1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cache/RedisTemplateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/AController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/AService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/AServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/util/AjaxResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/frontend/customerbind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/frontend/mypoint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/frontend/myrecord.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/frontend/pointrecord.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/frontend/productdetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/frontend/shopdetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/frontend/shoplist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/awarddelivercheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/awardedit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/awardmanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/changepsw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/forgetpsw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/myshops.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/ownerbind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/ownerlogin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/productbuycheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/productcategorymanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/productedit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/productmanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/shopauthedit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/shopauthmanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/shopedit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/shoplist#U526f#U672c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/shoplist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/shopmanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/shop/usershopcheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/superadmin/areamanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/superadmin/headlinemanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/superadmin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/superadmin/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/superadmin/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/superadmin/personinfomanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/superadmin/shopcategorymanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/superadmin/shopmanage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/html/superadmin/top.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/frontend/index/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/frontend/productdetail/productdetail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/frontend/shopdetail/shopdetail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/frontend/shoplist/shoplist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/shop/awarddelivercheck.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/shop/awardmanage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/shop/base/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/shop/base/jquery.confirm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/shop/base/jquery.validate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/shop/model/productDirector.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/shop/productbuycheck.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/shop/productcategorymanage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/shop/productmanage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/shop/shopauthmanage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/shop/shoplist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/shop/shopmanage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/shop/usershopcheck.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/info_content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/jquery-ui-1.8.6.custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/jquery.autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/tooltip-form-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/checkbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/flag/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/flag/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/flag/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/flag/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/flag/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/flag/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/flag/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/flag/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/flag/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/flag/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/flag/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/folder_Close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/folder_Open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/line_bottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/line_center.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/line_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/minus_bottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/minus_center.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/minus_noLine.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/minus_root.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/minus_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/moveArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/page.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/plus_bottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/plus_center.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/plus_noLine.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/plus_root.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/plus_top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/sim/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/sim/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/sim/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/sim/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/sim/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/sim/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/sim/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/sim/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/sim/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/sim/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/img/sim/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/zTreeIcons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/css/superadmin/common/zTreeStyle/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/images/right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/common/commonutil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/common/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/common/echarts.simple.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/common/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/frontend/customerbind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/frontend/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/frontend/mypoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/frontend/myrecord.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/frontend/pointrecord.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/frontend/productdetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/frontend/shopdetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/frontend/shoplist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/awarddelivercheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/awardedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/awardmanage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/base/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/base/commonutil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/base/jquery-1.11.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/base/jquery.confirm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/base/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/changepsw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/forgetpsw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/myshops.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/ownerbind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/ownerlogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/productbuycheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/productcategorymanage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/productedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/productmanage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/shopauthedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/shopauthmanage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/shopedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/shoplist#U526f#U672c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/shoplist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/shopmanage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/shop/usershopcheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/areamanage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/My97DatePicker/My97DatePicker.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/My97DatePicker/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/My97DatePicker/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/My97DatePicker/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/My97DatePicker/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/My97DatePicker/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/My97DatePicker/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/My97DatePicker/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/My97DatePicker/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/js/easyloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/js/easyui-lang-zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/js/jquery-1.4.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/js/jquery.easyui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.combo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.combobox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.combogrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.combotree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.datagrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.datebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.datetimebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.draggable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.droppable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.linkbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.menubutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.messager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.numberbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.numberspinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.resizable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.splitbutton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.timespinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.treegrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.validatebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/plugins/jquery.window.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/accordion_collapse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/accordion_expand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/button_a_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/button_plain_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/button_span_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/calendar_nextmonth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/calendar_nextyear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/calendar_prevmonth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/calendar_prevyear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/combo_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/datagrid_header_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/datagrid_row_collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/datagrid_row_expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/datagrid_sort_asc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/datagrid_sort_desc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/datagrid_title_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/layout_button_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/layout_button_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/layout_button_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/layout_button_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/main_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/menu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/menu_downarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/menu_rightarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/menu_sep.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/menu_split_downarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/messager_error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/messager_info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/messager_question.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/messager_warning.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/pagination_first.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/pagination_last.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/pagination_load.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/pagination_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/pagination_next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/pagination_prev.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/panel_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/panel_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/panel_tool_collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/panel_tool_expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/panel_tools.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/spinner_arrow_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/spinner_arrow_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/tabs_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/tabs_close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/tabs_enabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/tabs_leftarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/tabs_rightarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/tree_arrows.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/tree_checkbox_0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/tree_checkbox_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/tree_checkbox_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/tree_dnd_no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/tree_dnd_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/tree_file.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/tree_folder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/tree_folder_open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/tree_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/validatebox_pointer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/dayun/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/accordion_collapse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/accordion_expand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/button_a_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/button_plain_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/button_span_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/calendar_nextmonth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/calendar_nextyear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/calendar_prevmonth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/calendar_prevyear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/combo_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/datagrid_header_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/datagrid_row_collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/datagrid_row_expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/datagrid_sort_asc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/datagrid_sort_desc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/datagrid_title_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/layout_button_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/layout_button_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/layout_button_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/layout_button_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/menu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/menu_downarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/menu_rightarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/menu_sep.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/menu_split_downarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/messager_error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/messager_info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/messager_question.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/messager_warning.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/pagination_first.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/pagination_last.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/pagination_load.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/pagination_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/pagination_next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/pagination_prev.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/panel_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/panel_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/panel_tool_collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/panel_tool_expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/panel_tools.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/spinner_arrow_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/spinner_arrow_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/tabs_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/tabs_close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/tabs_enabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/tabs_leftarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/tabs_rightarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/tree_arrows.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/tree_checkbox_0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/tree_checkbox_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/tree_checkbox_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/tree_dnd_no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/tree_dnd_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/tree_file.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/tree_folder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/tree_folder_open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/tree_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/validatebox_pointer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/default/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/accordion_collapse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/accordion_expand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/button_a_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/button_plain_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/button_span_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/calendar_nextmonth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/calendar_nextyear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/calendar_prevmonth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/calendar_prevyear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/combo_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/datagrid_header_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/datagrid_row_collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/datagrid_row_expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/datagrid_sort_asc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/datagrid_sort_desc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/datagrid_title_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/layout_button_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/layout_button_left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/layout_button_right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/layout_button_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/menu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/menu_downarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/menu_rightarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/menu_sep.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/menu_split_downarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/messager_error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/messager_info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/messager_question.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/messager_warning.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/pagination_first.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/pagination_last.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/pagination_load.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/pagination_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/pagination_next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/pagination_prev.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/panel_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/panel_title.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/panel_tool_collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/panel_tool_expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/panel_tools.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/spinner_arrow_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/spinner_arrow_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/tabs_close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/tabs_enabled.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/tabs_leftarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/tabs_rightarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/tree_arrows.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/tree_checkbox_0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/tree_checkbox_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/tree_checkbox_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/tree_dnd_no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/tree_dnd_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/tree_file.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/tree_folder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/tree_folder_open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/tree_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/validatebox_pointer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/gray/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/icons/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/icons/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/icons/cut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/icons/edit_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/icons/edit_remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/icons/filesave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/icons/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/icons/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/icons/ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/icons/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/icons/print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/icons/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/icons/reload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/icons/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/themes/icons/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/easyui/validate/easyui_validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/errorhandle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/jquery-1.4.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/jquery-ui-1.8.6.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/jquery-ztree-2.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/jquery.autocomplete.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/tooltip/Css/Tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/tooltip/Images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/tooltip/Images/accept.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/tooltip/Images/exclamation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/tooltip/Images/tooltop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/tooltip/Js/Tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/tooltip/Js/Tooltip.mini.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/tooltip/Js/Tooltip.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/tooltip/Js/jquery.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/validate/cmxforms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/validate/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/validate/messages_cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/common/validate/tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/headlinemanage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/personinfomanage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/shopcategorymanage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/resources/js/superadmin/shopmanage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school_shop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/school_shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/school_shop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapper/UserInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapper/UserInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapper/aDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapper/ADao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pojo/IndexGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pojo/IndexGoods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pojo/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pojo/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring_mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mapper/aDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapper/aDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapping/a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring_mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/mapper/aDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/mapper/aDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/mapping/a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/mapping/a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/spring_mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/asm-3.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/cglib-2.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/commons-dbcp-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/commons-pool-1.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.41.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.16.1-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/spring-test-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/html/index.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,26 +541,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="spring_mvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring_mvc.xml">
+      <file leaf-file-name="spring-redis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-redis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+            <state relative-caret-position="638">
+              <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <file leaf-file-name="spring-web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-              <folding>
-                <element signature="e#1009#1020#0" expanded="true" />
-                <element signature="e#1098#1106#0" expanded="true" />
-                <element signature="e#1149#1162#0" expanded="true" />
-                <element signature="e#1205#1218#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="132">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -53,44 +562,12 @@
       <file leaf-file-name="UserInfoDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/UserInfoDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
-              <caret line="135" column="47" lean-forward="true" selection-start-line="135" selection-start-column="47" selection-end-line="135" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/html/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInfoService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/UserInfoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,17 +575,26 @@
       <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="132">
+              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <file leaf-file-name="spring-service.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-service.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="154">
+              <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisTemplateUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cache/RedisTemplateUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -116,11 +602,54 @@
       <file leaf-file-name="UserInfoServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/service/serviceImpl/UserInfoServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="160">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexGoods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/IndexGoods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-dao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-dao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redis.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -131,11 +660,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="yml" />
-        <option value="spring-" />
-        <option value="properties" />
         <option value="MybatisMapper" />
         <option value="HTML File" />
+        <option value="properties" />
         <option value="Interface" />
+        <option value="spring-" />
         <option value="Class" />
       </list>
     </option>
@@ -158,19 +687,39 @@
         <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/aplication_context.xml" />
         <option value="$PROJECT_DIR$/src/web/WEB-INF/html/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mapper/aDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/a.xml" />
         <option value="$PROJECT_DIR$/src/web/html/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/spring_mvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pojo/UserInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pojo/IndexGoods.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/UserInfoService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/UserInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapper/UserInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapper/aDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/aServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/aService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/AService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/a.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pojo/IndexGoods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pojo/UserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/AController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/src/web/html/superadmin/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/helper/RedisTemplateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/AServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/util/RedisCacheTransfer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/config/RedisProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/redis.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cache/JedisUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/util/AjaxResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/UserInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cache/RedisTemplateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-redis.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-service.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-dao.xml" />
       </list>
     </option>
   </component>
@@ -191,15 +740,21 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="8" />
+    <option name="x" value="7" />
+    <option name="y" value="15" />
     <option name="width" value="1620" />
     <option name="height" value="920" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,6 +787,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school_shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school_shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
@@ -275,7 +848,9 @@
               <item name="school_shop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
@@ -283,7 +858,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapping" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
@@ -303,36 +877,67 @@
               <item name="school_shop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school_shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school_shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school_shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webProject" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15354018" />
     <property name="project.structure.side.proportion" value="0.62009066" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\TOOLS\IntelliJ_IDEA\IDEAproj\school_shop\src\main\java\com\cache" />
+      <recent name="D:\TOOLS\IntelliJ_IDEA\IDEAproj\school_shop\src\main\java\com" />
+      <recent name="D:\TOOLS\IntelliJ_IDEA\IDEAproj\school_shop\src\web\html\superadmin" />
+      <recent name="D:\TOOLS\IntelliJ_IDEA\IDEAproj\school_shop\src\web\html" />
       <recent name="D:\TOOLS\IntelliJ_IDEA\IDEAproj\school_shop\src\web" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\TOOLS\IntelliJ_IDEA\IDEAproj\school_shop\src\main\resources" />
-      <recent name="D:\TOOLS\IntelliJ_IDEA\IDEAproj\school_shop\src\web\WEB-INF" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\TOOLS\IntelliJ_IDEA\IDEAproj\school_shop\src\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -389,11 +994,16 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="tt" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.2" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="tt" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.2" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="school_shop:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+        <artifact name="school_shop:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -458,7 +1068,9 @@
       <method>
         <option name="BuildArtifacts" enabled="true">
           <artifact name="school_shop:war" />
+          <artifact name="school_shop:war exploded" />
         </option>
+        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -478,20 +1090,33 @@
       <workItem from="1550132537959" duration="1279000" />
       <workItem from="1551335933742" duration="1007000" />
       <workItem from="1551339574561" duration="1036000" />
-      <workItem from="1551507017008" duration="3277000" />
+      <workItem from="1551507017008" duration="4818000" />
+      <workItem from="1551586792040" duration="3042000" />
+      <workItem from="1551938990241" duration="9849000" />
+      <workItem from="1552273935941" duration="8621000" />
+      <workItem from="1552380865914" duration="8903000" />
+      <workItem from="1552477653416" duration="2757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16575000" />
+    <option name="totallyTimeSpent" value="51288000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3293011" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32839838" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -501,23 +1126,23 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32974428" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32974428" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293011" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2692802" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32839838" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32974428" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32974428" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28791773" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32839838" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -530,318 +1155,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/IndexGoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/UserInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/serviceImpl/UserInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/a.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/aDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/UserInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring_mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1257#1258#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1347#1348#0" expanded="true" />
-            <element signature="e#1385#1386#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1697#1698#0" expanded="true" />
-            <element signature="e#1726#1727#0" expanded="true" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1807#1808#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/IndexGoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/UserInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/UserInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/serviceImpl/UserInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/a.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/aDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring_mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1257#1258#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1347#1348#0" expanded="true" />
-            <element signature="e#1385#1386#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1697#1698#0" expanded="true" />
-            <element signature="e#1726#1727#0" expanded="true" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1807#1808#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/IndexGoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/a.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/aDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/UserInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring_mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -863,7 +1176,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/aDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/ADao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
@@ -877,7 +1190,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="56" lean-forward="true" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
@@ -886,6 +1199,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring_context.yml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring_web.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/serviceImpl/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/UserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/a.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -893,104 +1214,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/aDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1257#1258#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1347#1348#0" expanded="true" />
-            <element signature="e#1385#1386#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1697#1698#0" expanded="true" />
-            <element signature="e#1726#1727#0" expanded="true" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1807#1808#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/IndexGoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/serviceImpl/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/UserInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/serviceImpl/UserInfoServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/AService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/AController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#707#1191#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/UserInfoDao.java">
+    <entry file="file://$PROJECT_DIR$/src/web/WEB-INF/html/shop/myshops.html" />
+    <entry file="file://$PROJECT_DIR$/src/web/resources/js/shop/base/common.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/WEB-INF/html/shop/awarddelivercheck.html" />
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar!/org/apache/commons/pool2/impl/GenericObjectPoolConfig.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="198">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/html/index.html">
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdkx64/src.zip!/javax/management/remote/rmi/RMIConnectionImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="156">
+          <caret line="828" selection-start-line="828" selection-end-line="828" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.17.RELEASE/spring-beans-4.3.17.RELEASE.jar!/org/springframework/beans/factory/config/PlaceholderConfigurerSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/WEB-INF/html/frontend/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/web/WEB-INF/html/superadmin/login.html" />
+    <entry file="file://$PROJECT_DIR$/src/web/html/frontend/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/html/superadmin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/html/superadmin/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/html/superadmin/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1001,44 +1292,217 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+        <state relative-caret-position="484">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1451#1452#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+            <element signature="e#1518#1519#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+            <element signature="e#1607#1608#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+            <element signature="e#1715#1716#0" expanded="true" />
+            <element signature="e#1751#1752#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/helper/RedisTemplateUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/serviceImpl/AServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/util/RedisCacheTransfer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/RedisProperties.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/RedisConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/web/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/resources/images/right.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3410">
+          <caret line="155" column="20" selection-start-line="155" selection-start-column="20" selection-end-line="155" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/util/AjaxResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="26" column="68" lean-forward="true" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/ADao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/IndexGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cache/JedisPoolWriper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cache/JedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="152" selection-start-line="152" selection-end-line="160" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/serviceImpl/UserInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/UserInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="135" column="47" lean-forward="true" selection-start-line="135" selection-start-column="47" selection-end-line="135" selection-end-column="47" />
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="132">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring_mvc.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-service.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+        <state relative-caret-position="154">
+          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cache/RedisTemplateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#1009#1020#0" expanded="true" />
-            <element signature="e#1098#1106#0" expanded="true" />
-            <element signature="e#1149#1162#0" expanded="true" />
-            <element signature="e#1205#1218#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="208">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -1053,7 +1517,6 @@
             <option name="proportions">
               <list>
                 <option value="0.62009066" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1061,7 +1524,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Spring (school_shop)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1076,7 +1539,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.62009066" />
               </list>
             </option>
           </splitter-proportions>
@@ -1084,11 +1547,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.62009066" />
               </list>
             </option>
           </splitter-proportions>
@@ -1108,7 +1571,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited>Maven: com.alibaba:druid:1.1.14</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

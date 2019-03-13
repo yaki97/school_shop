@@ -1,6 +1,6 @@
 /**
  * UserInfoService.java
- * Copyright 2019 天津亿网通达网络技术有限公司.
+ * Copyright 2019 .
  * All rights reserved.
  * Created on 2019-02-11 14:39
  */

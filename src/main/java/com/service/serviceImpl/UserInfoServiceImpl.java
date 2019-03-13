@@ -1,14 +1,20 @@
 /**
  * UserInfoServiceImpl.java
- * Copyright 2019 天津亿网通达网络技术有限公司.
+ * Copyright 2019 .
  * All rights reserved.
  * Created on 2019-02-11 14:39
  */
 package com.service.serviceImpl;
 
+import com.cache.RedisTemplateUtil;
+import com.mapper.UserInfoDao;
 import com.pojo.UserInfo;
 import com.service.UserInfoService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
 
 /**
  * 文件的说明
@@ -18,13 +24,15 @@ import org.springframework.stereotype.Service;
  **/
 @Service
 public class UserInfoServiceImpl implements UserInfoService {
+    @Resource
+    private UserInfoDao userInfoDao;
+    private RedisTemplateUtil redisTemplateUtil;
     @Override
     public int registUser(UserInfo userInfo) {
-        return 0;
+        return userInfoDao.registUser(new UserInfo());
     }
-
     @Override
     public int loginUser(UserInfo userInfo) {
-        return 0;
+        return userInfoDao.loginUser(new UserInfo());
     }
 }
