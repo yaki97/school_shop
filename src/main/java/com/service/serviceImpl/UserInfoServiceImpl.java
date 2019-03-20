@@ -6,15 +6,13 @@
  */
 package com.service.serviceImpl;
 
-import com.cache.RedisTemplateUtil;
-import com.mapper.UserInfoDao;
+import com.dao.UserInfoDao;
 import com.pojo.UserInfo;
 import com.service.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * 文件的说明
@@ -22,17 +20,21 @@ import javax.annotation.Resource;
  * @author 杨凯
  * @version 1.0.0, 2019-02-11 14:39
  **/
-@Service
+@Service("userInfoService")
 public class UserInfoServiceImpl implements UserInfoService {
-    @Resource
+    @Autowired(required = true)
     private UserInfoDao userInfoDao;
-    private RedisTemplateUtil redisTemplateUtil;
     @Override
     public int registUser(UserInfo userInfo) {
-        return userInfoDao.registUser(new UserInfo());
+        return userInfoDao.registUser(userInfo);
     }
     @Override
     public int loginUser(UserInfo userInfo) {
-        return userInfoDao.loginUser(new UserInfo());
+        return userInfoDao.loginUser(userInfo);
+    }
+
+    @Override
+    public int findUserByUsername(String username) {
+        return userInfoDao.findUserByUsername(username);
     }
 }

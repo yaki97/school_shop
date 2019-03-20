@@ -8,6 +8,8 @@ package com.service;
 
 import com.pojo.UserInfo;
 
+import java.util.List;
+
 /**
  * 文件的说明
  *
@@ -19,4 +21,6 @@ public interface UserInfoService {
     public int registUser(UserInfo userInfo);
     //登陆
     public int loginUser(UserInfo userInfo);
+
+    public int findUserByUsername(String username);
 }

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.UserInfoDao">
+    <resultMap id="UserInfoResult" type="com.pojo.UserInfo"   >
+        <id property="userId" column="user_id"/>
+        <result property="userName" column="user_name"/>
+        <result property="realName" column="real_name"/>
+        <result property="password" column="password"/>
+        <result property="phoneNumber" column="phone_number"/>
+        <result property="contactAddress" column="contact_address"/>
+        <result property="userType"  column="user_type" />
+        <result property="status"  column="status" />
+    </resultMap>
+    <select id="findUserByUsername" resultType="int" parameterType="String">
+        select count(*) from userinfo u where u.user_name = #{userName}
+    </select>
+    <insert id="registUser" parameterType="com.pojo.UserInfo" useGeneratedKeys="true" keyProperty="userId">
+        insert into userinfo(user_name,real_name,password,phone_number,contact_address,user_type,status)
+         values (#{userName},#{realName},#{password},#{phoneNumber},#{contactAddress},#{userType},#{status})
+    </insert>
+    <select id="loginUser" resultType="Integer" parameterType="com.pojo.UserInfo">
+        select count (*) from userinfo u where u.user_name = #{userName} and u.password = #{password}
+    </select>
+</mapper>
+
+    

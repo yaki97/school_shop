@@ -25,6 +25,17 @@ public class UserInfo {
     public UserInfo() {
     }
 
+    public UserInfo(String userName, String password) {
+        this.userName = userName;
+        this.password = password;
+    }
+
+    public UserInfo(String userName, String password, String phoneNumber) {
+        this.userName = userName;
+        this.password = password;
+        this.phoneNumber = phoneNumber;
+    }
+
     public Integer getUserId() {
         return userId;
     }
