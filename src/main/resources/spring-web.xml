@@ -16,6 +16,11 @@
         (2)提供一些列：数据绑定，数字和日期的format @NumberFormat, @DateTimeFormat, xml,json默认读写支持 -->
     <mvc:annotation-driven />
 
+    <!-- 全局的跨域访问配置 -->
+    <mvc:cors>
+        <!-- /** 表示所有请求都将支持跨域方法 -->
+        <mvc:mapping path="/**" allow-credentials="true" allowed-origins="*" allowed-methods="GET,POST,PUT,DELETE"/>
+    </mvc:cors>
     <!-- 静态资源默认servlet配置 (1)加入对静态资源的处理：js,gif,png (2)允许使用"/"做整体映射 -->
     <!--<mvc:resources mapping="/resources/**" location="/resources/" />-->
     <mvc:default-servlet-handler />
@@ -33,6 +38,8 @@
         <property name="maxUploadSize" value="10485760000"></property><!-- 最大上传文件大小 -->
         <property name="maxInMemorySize" value="10960"></property>
     </bean>
+
+
     <!-- 权限拦截器 -->
     <!--<mvc:interceptors>-->
         <!--<mvc:interceptor>-->

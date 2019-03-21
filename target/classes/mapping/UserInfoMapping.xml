@@ -20,8 +20,8 @@
         insert into userinfo(user_name,real_name,password,phone_number,contact_address,user_type,status)
          values (#{userName},#{realName},#{password},#{phoneNumber},#{contactAddress},#{userType},#{status})
     </insert>
-    <select id="loginUser" resultType="Integer" parameterType="com.pojo.UserInfo">
-        select count (*) from userinfo u where u.user_name = #{userName} and u.password = #{password}
+    <select id="loginUser" resultType="com.pojo.UserInfo" parameterType="com.pojo.UserInfo">
+        select * from userinfo u where u.user_name = #{userName} and u.user_type=#{userType}
     </select>
 </mapper>
 

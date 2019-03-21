@@ -6,13 +6,15 @@
  */
 package com.pojo;
 
+import java.io.Serializable;
+
 /**
  * 文件的说明
  *
  * @author 杨凯
  * @version 1.0.0, 2019-02-11 14:22
  **/
-public class UserInfo {
+public class UserInfo implements Serializable {
     private Integer userId;
     private String userName;
     private String realName;
@@ -25,15 +27,16 @@ public class UserInfo {
     public UserInfo() {
     }
 
-    public UserInfo(String userName, String password) {
+    public UserInfo(String userName,Integer userType) {
         this.userName = userName;
-        this.password = password;
+        this.userType = userType;
     }
 
-    public UserInfo(String userName, String password, String phoneNumber) {
+    public UserInfo(String userName, String password, String phoneNumber, Integer userType) {
         this.userName = userName;
         this.password = password;
         this.phoneNumber = phoneNumber;
+        this.userType = userType;
     }
 
     public Integer getUserId() {

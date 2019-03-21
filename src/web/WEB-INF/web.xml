@@ -20,6 +20,7 @@
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
+
     <!-- servlet -->
     <servlet>
         <servlet-name>dispatcherServlet</servlet-name>
@@ -34,8 +35,17 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>dispatcherServlet</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>/*</url-pattern>
     </servlet-mapping>
+    <!--  提供跨域支持 -->
+    <filter>
+        <filter-name>CORS</filter-name>
+        <filter-class>com.filter.CrosFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>CORS</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 
     <!-- filter -->
     <!-- Spring字符集过滤器 -->
@@ -56,12 +66,4 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
-    <filter>
-        <filter-name>AccessFilter</filter-name>
-        <filter-class>com.filter.AccessFilter</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>AccessFilter</filter-name>
-        <url-pattern>/*</url-pattern>
-    </filter-mapping>
 </web-app>

@@ -22,7 +22,7 @@ public interface UserInfoDao {
     //注册
     public int registUser(UserInfo userInfo);
     //登陆
-    public int loginUser(UserInfo userInfo);
+    public UserInfo loginUser(UserInfo userInfo);
 
     public int findUserByUsername(String username);
 }

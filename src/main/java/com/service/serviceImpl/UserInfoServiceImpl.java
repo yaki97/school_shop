@@ -29,7 +29,7 @@ public class UserInfoServiceImpl implements UserInfoService {
         return userInfoDao.registUser(userInfo);
     }
     @Override
-    public int loginUser(UserInfo userInfo) {
+    public UserInfo loginUser(UserInfo userInfo) {
         return userInfoDao.loginUser(userInfo);
     }
 

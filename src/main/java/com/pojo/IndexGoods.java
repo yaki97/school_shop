@@ -6,13 +6,15 @@
  */
 package com.pojo;
 
+import java.io.Serializable;
+
 /**
  * 文件的说明
  *
  * @author 杨凯
  * @version 1.0.0, 2019-02-11 14:22
  **/
-public class IndexGoods {
+public class IndexGoods implements Serializable {
     private Integer indexGoodsId;
     private Integer goodsId;
     private Integer sortNumber;

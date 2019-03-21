@@ -11,13 +11,9 @@ import com.pojo.UserInfo;
 import com.service.UserInfoService;
 import com.service.serviceImpl.UserInfoServiceImpl;
 import com.util.AjaxResult;
-import com.util.CaptchaUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.imageio.ImageIO;
 import javax.servlet.ServletException;
@@ -42,40 +38,52 @@ public class UserInfoController {
     private UserInfoService userInfoService;
     @Autowired(required = true)
     private DefaultKaptcha defaultKaptcha;
+
     @RequestMapping(value = "/userLogin",method = RequestMethod.POST)
     @ResponseBody
     public AjaxResult userLogin(@RequestParam(value = "userName",required = false) String userName,
-                                @RequestParam(value = "password",required = false) String password){
+                                @RequestParam(value = "password",required = false) String password,
+                                @RequestParam(value = "vrifyCode",required = false) String vrifyCode,
+                                @RequestParam(value = "userType",required = false) int userType,
+                                HttpServletRequest httpServletRequest){
         System.out.println("userLogin");
-        int usernum=userInfoService.loginUser(new UserInfo(userName,password));
-        if(usernum==1){
-            return AjaxResult.success();
+        String captchaId = (String) httpServletRequest.getSession().getAttribute("vrifyCode");
+        System.out.println(httpServletRequest.getSession().getId());
+        System.out.println("Session  vrifyCode "+captchaId+" form vrifyCode "+vrifyCode);
+        if (!captchaId.equalsIgnoreCase(vrifyCode)) {
+            return AjaxResult.error("验证码错误");
         }
-        else if(usernum<1){
-            return AjaxResult.error("用户不存在");
+        else {
+            UserInfo userInfo=userInfoService.loginUser(new UserInfo(userName,userType));
+            if(userInfo==null){
+                return AjaxResult.error("用户不存在");
+            }
+            else{
+                if(!userInfo.getPassword().equals(password)) {
+                    return AjaxResult.error("密码错误");
+                }
+                else {
+                    return AjaxResult.success();
+                }
+            }
         }
-        else{
-            return AjaxResult.error("密码错误");
-        }
+
     }
+
     @RequestMapping(value = "/userRegist",method = RequestMethod.POST)
     @ResponseBody
     public AjaxResult userRegist(@RequestParam(value = "userName",required = false) String userName,
                                  @RequestParam(value = "password",required = false) String password,
                                  @RequestParam(value = "phoneNumber",required = false) String phoneNumber,
                                  @RequestParam(value = "vrifyCode",required = false) String vrifyCode,
-                                 HttpServletRequest httpServletRequest,
-                                 HttpServletResponse httpServletResponse)throws Exception{
+                                 @RequestParam(value = "userType",required = false) int userType,
+                                 HttpServletRequest httpServletRequest){
         System.out.println("userRegist");
-        System.out.println(userName+";"+password+";"+phoneNumber);
-        String captchaId="";
-        try {
-            captchaId = (String) httpServletRequest.getSession().getAttribute("vrifyCode");
-        } catch (IllegalArgumentException e) {
-            httpServletResponse.sendError(HttpServletResponse.SC_NOT_FOUND);
-        }
+        System.out.println(userName+";"+password+";"+phoneNumber+";"+vrifyCode+";"+userType);
+        String captchaId = (String) httpServletRequest.getSession().getAttribute("vrifyCode");
+        System.out.println(httpServletRequest.getSession().getId());
         System.out.println("Session  vrifyCode "+captchaId+" form vrifyCode "+vrifyCode);
-        if (!captchaId.equals(vrifyCode)) {
+        if (!captchaId.equalsIgnoreCase(vrifyCode)) {
             return AjaxResult.error("验证码错误");
         }
         else {
@@ -84,7 +92,7 @@ public class UserInfoController {
             if(usernum>0){
                 return AjaxResult.error("用户已存在！");
             }else{
-                userInfoService.registUser(new UserInfo(userName,password,phoneNumber));
+                userInfoService.registUser(new UserInfo(userName,password,phoneNumber,userType));
                 return AjaxResult.success();
             }
         }
@@ -95,7 +103,7 @@ public class UserInfoController {
      * @param httpServletResponse
      * @throws Exception
      */
-    @RequestMapping("/defaultKaptcha")
+    @RequestMapping(value = "/defaultKaptcha",method = RequestMethod.GET)
     public void defaultKaptcha(HttpServletRequest httpServletRequest,HttpServletResponse httpServletResponse) throws Exception{
         byte[] captchaChallengeAsJpeg = null;
         ByteArrayOutputStream jpegOutputStream = new ByteArrayOutputStream();
@@ -103,6 +111,7 @@ public class UserInfoController {
             //生产验证码字符串并保存到session中
             String createText = defaultKaptcha.createText();
             httpServletRequest.getSession().setAttribute("vrifyCode", createText);
+            System.out.println(httpServletRequest.getSession().getId());
             String sss=(String)httpServletRequest.getSession().getAttribute("vrifyCode");
             System.out.println(createText+";"+sss);
             //使用生产的验证码字符串返回一个BufferedImage对象并转为byte写入到byte数组中
@@ -126,13 +135,12 @@ public class UserInfoController {
         responseOutputStream.close();
     }
 
-
     @RequestMapping(value = "/test", method = RequestMethod.POST)
     @ResponseBody
-    public AjaxResult test(@RequestParam(value = "userName",required = false)String userName)
+    public AjaxResult test(@RequestParam(value = "userName",required = false)String userName,HttpServletRequest request)
     {
         System.out.println("test");
-        System.out.println(userName);
+        System.out.println(request.getSession().getId());
         return AjaxResult.success();
     }
 }
