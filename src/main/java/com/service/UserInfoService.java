@@ -23,4 +23,8 @@ public interface UserInfoService {
     public UserInfo loginUser(UserInfo userInfo);
 
     public int findUserByUsername(String username);
+
+    public List<UserInfo> findUserByType(int userType,int pageIndex,int pageSize);
+
+    public List<UserInfo> findAllUserByType(int userType);
 }

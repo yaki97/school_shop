@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.HotListDao">
+    <resultMap id="HotListResult" type="com.pojo.HotList"   >
+        <id property="hotListId" column="hot_list_id"/>
+        <result property="dateTime" column="date_time"/>
+        <result property="sortNumber" column="sort_number"/>
+        <association property="goods" javaType="com.pojo.Goods">
+            <id     property="goodsId"       column="goods_id"      />
+            <result property="goodsName"     column="goods_name"    />
+            <result property="goodsPrice"    column="goods_price"   />
+            <result property="goodsType"     column="goods_type"     />
+            <result property="storeId"     column="store_id"     />
+            <result property="goodsDesc"    column="goods_desc"   />
+            <result property="goodsImg"     column="goods_img"     />
+            <result property="goodsUrl"     column="goods_url"     />
+            <result property="goodsStatus"     column="goods_status"     />
+            <result property="salesVolume"     column="sales_volume"     />
+        </association>
+    </resultMap>
+    <resultMap id="GoodsResult" type="com.pojo.Goods"   >
+        <id     property="goodsId"       column="goods_id"      />
+        <result property="goodsName"     column="goods_name"    />
+        <result property="goodsPrice"    column="goods_price"   />
+        <result property="goodsType"     column="goods_type"     />
+        <result property="storeId"     column="store_id"     />
+        <result property="goodsDesc"    column="goods_desc"   />
+        <result property="goodsImg"     column="goods_img"     />
+        <result property="goodsUrl"     column="goods_url"     />
+        <result property="goodsStatus"     column="goods_status"     />
+        <result property="salesVolume"     column="sales_volume"     />
+    </resultMap>
+    <select id="selectHotListByDate" parameterType="int" resultMap="HotListResult">
+        SELECT hh.*,g.*
+        FROM(SELECT h.* FROM hot_list h ORDER BY h.date_time DESC LIMIT #{number})
+        AS hh inner join goods g on hh.goods_id=g.goods_id ORDER BY hh.sort_number ASC
+    </select>
+
+    <select id="selectGoodsTop"  parameterType="int" resultMap="GoodsResult">
+        select * from goods g ORDER BY g.sales_volume desc limit #{topNum}
+    </select>
+
+    <insert id="addHotList" keyProperty="hotListId">
+		insert into hot_list(goods_id,date_time,sort_number) values
+		 (#{goodsId},#{dateTime,jdbcType=TIMESTAMP},#{sortNumber})
+	</insert>
+</mapper>
+
+    

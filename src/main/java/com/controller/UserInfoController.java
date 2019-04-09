@@ -24,6 +24,9 @@ import javax.servlet.http.HttpSession;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 文件的说明
@@ -38,6 +41,9 @@ public class UserInfoController {
     private UserInfoService userInfoService;
     @Autowired(required = true)
     private DefaultKaptcha defaultKaptcha;
+
+    private List<UserInfo> userInfoList=null;
+
 
     @RequestMapping(value = "/userLogin",method = RequestMethod.POST)
     @ResponseBody
@@ -135,6 +141,20 @@ public class UserInfoController {
         responseOutputStream.close();
     }
 
+    @RequestMapping(value = "/manager/findUserByType", method = RequestMethod.POST)
+    @ResponseBody
+    public Map<String, Object> findUserByType(@RequestParam(value = "userType",required = false)int userType,
+                                              @RequestParam(value = "pageIndex",required = false)int pageIndex,
+                                              @RequestParam(value = "pageSize",required = false)int pageSize)
+    {
+        System.out.println("findUserByType");
+        int listsize=userInfoService.findAllUserByType(1).size();
+        userInfoList=userInfoService.findUserByType(userType,pageIndex,pageSize);
+        Map<String, Object> map1=new HashMap<>();
+        map1.put("total",listsize);
+        map1.put("data",userInfoList);
+        return map1;
+    }
     @RequestMapping(value = "/test", method = RequestMethod.POST)
     @ResponseBody
     public AjaxResult test(@RequestParam(value = "userName",required = false)String userName,HttpServletRequest request)

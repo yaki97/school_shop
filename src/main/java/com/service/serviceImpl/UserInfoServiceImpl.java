@@ -37,4 +37,14 @@ public class UserInfoServiceImpl implements UserInfoService {
     public int findUserByUsername(String username) {
         return userInfoDao.findUserByUsername(username);
     }
+
+    @Override
+    public List<UserInfo> findUserByType(int userType, int pageIndex, int pageSize) {
+        return userInfoDao.findUserByType(userType,pageIndex,pageSize);
+    }
+
+    @Override
+    public List<UserInfo> findAllUserByType(int userType) {
+        return userInfoDao.findAllUserByType(userType);
+    }
 }

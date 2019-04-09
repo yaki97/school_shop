@@ -7,34 +7,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9309a2f3-9400-45d0-982f-969d149494e1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/filter/CrosFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cache/RedisTemplateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/CarouselController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/HotListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/CarouselDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/HotListDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Carousel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/HotList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/CarouselService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/HotListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/CarouselServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/HotListServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/task/CarouselCron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/task/HotListCron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/CarouselMapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/HotListMapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-task.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/UserInfoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/UserInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/UserInfoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/filter/AccessFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pojo/IndexGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pojo/IndexGoods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pojo/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pojo/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/filter/CrosFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/filter/CrosFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pojo/IndexGoods.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/UserInfoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/UserInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/util/CaptchaUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/util/JwtUtil.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/UserInfoMapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/UserInfoMapping.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mykaptcha.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mykaptcha.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-dao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/controller/UserInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/controller/UserInfoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/filter/AccessFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pojo/IndexGoods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pojo/IndexGoods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pojo/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pojo/UserInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/util/CaptchaUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dao/UserInfoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dao/UserInfoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/filter/CrosFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/filter/CrosFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pojo/IndexGoods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/service/UserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/service/UserInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/service/serviceImpl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/service/serviceImpl/UserInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/util/JwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/UserInfoMapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapping/UserInfoMapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-dao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/controller/UserInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/controller/UserInfoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/filter/AccessFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/pojo/IndexGoods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/pojo/IndexGoods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/pojo/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/pojo/UserInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/util/CaptchaUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/spring-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/dao/UserInfoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/dao/UserInfoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/filter/CrosFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/filter/CrosFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/pojo/IndexGoods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/service/UserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/service/UserInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/service/serviceImpl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/service/serviceImpl/UserInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/com/util/JwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/mapping/UserInfoMapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/mapping/UserInfoMapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/classes/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/bcprov-jdk15on-1.55.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/commons-httpclient-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/cors-filter-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/java-jwt-3.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/java-property-utils-1.9.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/lib/jjwt-0.7.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/school_shop-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,44 +79,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserInfoController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserInfoController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/UserInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="65" column="48" lean-forward="true" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
+            <state relative-caret-position="933">
+              <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarouselController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/CarouselController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4268">
+              <caret line="194" column="21" selection-start-line="194" selection-start-column="21" selection-end-line="194" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrosFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/filter/CrosFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/UserInfo.java">
+      <file leaf-file-name="HotListCron.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/task/HotListCron.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="66">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-mykaptcha.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mykaptcha.xml">
+      <file leaf-file-name="CarouselDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/CarouselDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="10" column="62" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInfoServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/serviceImpl/UserInfoServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="286">
+              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -95,8 +142,8 @@
       <file leaf-file-name="UserInfoMapping.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserInfoMapping.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="638">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -104,12 +151,17 @@
       <file leaf-file-name="UserInfoDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/UserInfoDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="19" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="484">
+              <caret line="31" column="75" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfoServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/serviceImpl/UserInfoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -118,10 +170,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/service/UserInfoService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -132,12 +181,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="yml" />
-        <option value="properties" />
-        <option value="Interface" />
         <option value="HTML File" />
-        <option value="MybatisMapper" />
         <option value="spring-" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="MybatisMapper" />
         <option value="Class" />
+        <option value="properties" />
       </list>
     </option>
   </component>
@@ -148,68 +198,71 @@
       <find>junit</find>
       <find>CaptchaUtil</find>
       <find>addCorsMappings</find>
+      <find>selectGoodsTop</find>
+      <find>HttpStatus</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/service/serviceImpl/HotListServiceImpl.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/service/serviceImpl/UserInfoServiceImpl.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/controller/UserInfoController.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/aplication_context.xml" />
-        <option value="$PROJECT_DIR$/src/web/WEB-INF/html/index.html" />
-        <option value="$PROJECT_DIR$/src/web/html/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring_mvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mapper/UserInfoDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mapper/aDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/aServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/service/aService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/service/AService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/a.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/redis.properties" />
-        <option value="$PROJECT_DIR$/src/web/html/superadmin/login.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/helper/RedisTemplateUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/AServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/util/RedisCacheTransfer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/config/RedisProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/redis.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cache/JedisUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/util/AjaxResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cache/RedisTemplateUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-redis.xml" />
-        <option value="$PROJECT_DIR$/src/web/1.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/util/CaptchaUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/controller/AController.java" />
-        <option value="$PROJECT_DIR$/src/web/WEB-INF/html/404.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-service.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/aplicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/util/KaptchaConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pojo/IndexGoods.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/filter/AccessFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/util/JwtUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/filter/CrossFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/intercept/HeaderTokenInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mykaptcha.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pojo/UserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/HotList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pojo/Goods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pojo/IndexGoods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Test01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/Test01.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/IndexGoodsMapping.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/IndexGoodsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/IndexGoodsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/IndexGoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/IndexGoodsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pojo/Carousel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/carouselController.java" />
+        <option value="$PROJECT_DIR$/src/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-task.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/CarouselService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/CarouselServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/CarouselCron.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/CarouselController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/CarouselMapping.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/HotListService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/HotListServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/HotListDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pojo/HotList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/HotListController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/IndexGoodsServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/HotListMapping.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cache/RedisTemplateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cache/RedisUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/page/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-dao.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/filter/CrosFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-web.xml" />
-        <option value="$PROJECT_DIR$/src/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mykaptcha.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/HotListCron.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/CarouselDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dao/UserInfoDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/UserInfoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/UserInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapping/UserInfoMapping.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pojo/UserInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/UserInfoController.java" />
       </list>
     </option>
@@ -245,7 +298,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,6 +330,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school_shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
@@ -341,6 +402,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school_shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school_shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -381,78 +460,6 @@
             </path>
             <path>
               <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.penggle:kaptcha:2.3.2" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.penggle:kaptcha:2.3.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="kaptcha-2.3.2.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.penggle:kaptcha:2.3.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="kaptcha-2.3.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.penggle:kaptcha:2.3.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="kaptcha-2.3.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.penggle:kaptcha:2.3.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="kaptcha-2.3.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.penggle:kaptcha:2.3.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="kaptcha-2.3.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="kaptcha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.penggle:kaptcha:2.3.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="kaptcha-2.3.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="kaptcha" type="462c0819:PsiDirectoryNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.penggle:kaptcha:2.3.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="kaptcha-2.3.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="kaptcha" type="462c0819:PsiDirectoryNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="school_shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
@@ -460,34 +467,44 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../webProject" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15354018" />
     <property name="project.structure.side.proportion" value="0.62009066" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\TOOLS\IntelliJ_IDEA\IDEAproj\school_shop\src\main\resources\mapping" />
       <recent name="D:\TOOLS\IntelliJ_IDEA\IDEAproj\school_shop\src\web\WEB-INF" />
       <recent name="D:\TOOLS\IntelliJ_IDEA\IDEAproj\school_shop\src\web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.util" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\TOOLS\IntelliJ_IDEA\IDEAproj\school_shop\src\main\java\com" />
+      <recent name="D:\TOOLS\IntelliJ_IDEA\IDEAproj\school_shop\src\main\java\com\cache" />
       <recent name="D:\TOOLS\IntelliJ_IDEA\IDEAproj\school_shop\src\main\resources" />
       <recent name="D:\TOOLS\IntelliJ_IDEA\IDEAproj\school_shop\src\main\java\com\util" />
-      <recent name="D:\TOOLS\IntelliJ_IDEA\IDEAproj\school_shop\src\main\java\com" />
       <recent name="D:\TOOLS\IntelliJ_IDEA\IDEAproj\school_shop" />
-      <recent name="D:\TOOLS\IntelliJ_IDEA\IDEAproj\school_shop\src\main\java\com\cache" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -502,9 +519,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.tt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="IndexGoodsServiceImplTest.deleteIndexGoodsByType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="school_shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.IndexGoodsServiceImplTest" />
+      <option name="METHOD_NAME" value="deleteIndexGoodsByType" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="IndexGoodsServiceImplTest.selectIndexGoodsByType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="school_shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.IndexGoodsServiceImplTest" />
+      <option name="METHOD_NAME" value="selectIndexGoodsByType" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -557,6 +620,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_school_shop" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -618,6 +682,17 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.tt" />
+      <item itemvalue="JUnit.IndexGoodsServiceImplTest.selectIndexGoodsByType" />
+      <item itemvalue="JUnit.IndexGoodsServiceImplTest.deleteIndexGoodsByType" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IndexGoodsServiceImplTest.deleteIndexGoodsByType" />
+        <item itemvalue="JUnit.IndexGoodsServiceImplTest.selectIndexGoodsByType" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -646,12 +721,34 @@
       <workItem from="1552825586750" duration="198000" />
       <workItem from="1552880655792" duration="26627000" />
       <workItem from="1553081033784" duration="11454000" />
-      <workItem from="1553141545664" duration="7839000" />
+      <workItem from="1553141545664" duration="8486000" />
+      <workItem from="1553600622980" duration="4421000" />
+      <workItem from="1553837265452" duration="11602000" />
+      <workItem from="1553934067800" duration="11712000" />
+      <workItem from="1554085137240" duration="21766000" />
+      <workItem from="1554173334333" duration="4877000" />
+      <workItem from="1554214342178" duration="2588000" />
+      <workItem from="1554465848545" duration="1222000" />
+      <workItem from="1554517145053" duration="4646000" />
+      <workItem from="1554641256856" duration="3568000" />
+      <workItem from="1554698073388" duration="3626000" />
+      <workItem from="1554815701319" duration="1362000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="IndexGoodsServiceImplTest_selectIndexGoodsByType - 2019.03.30 at 19h 38m 00s.xml">
+      <configuration name="IndexGoodsServiceImplTest.selectIndexGoodsByType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IndexGoodsServiceImplTest_selectIndexGoodsByType - 2019.03.30 at 19h 41m 05s.xml">
+      <configuration name="IndexGoodsServiceImplTest.selectIndexGoodsByType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IndexGoodsServiceImplTest_deleteIndexGoodsByType - 2019.03.30 at 19h 42m 04s.xml">
+      <configuration name="IndexGoodsServiceImplTest.deleteIndexGoodsByType" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99557000" />
+    <option name="totallyTimeSpent" value="171594000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -667,7 +764,7 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50064266" side_tool="true" weight="0.31359354" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32839838" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
@@ -679,16 +776,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32974428" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32974428" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31359354" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" visible="true" weight="0.19784656" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32974428" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32974428" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30719796" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21336761" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -709,122 +806,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.17.RELEASE/spring-beans-4.3.17.RELEASE.jar!/org/springframework/beans/factory/config/PlaceholderConfigurerSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/WEB-INF/html/frontend/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/web/WEB-INF/html/superadmin/login.html" />
-    <entry file="file://$PROJECT_DIR$/src/web/html/frontend/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/web/html/superadmin/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/web/html/superadmin/login.html" />
-    <entry file="file://$PROJECT_DIR$/src/web/html/superadmin/main.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/helper/RedisTemplateUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/serviceImpl/AServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/util/RedisCacheTransfer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/RedisProperties.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/RedisConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/web/html/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/web/resources/images/right.gif" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cache/JedisPoolWriper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cache/JedisUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/1.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapper/ADao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/AController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/aplicationContext.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="11" selection-start-line="11" selection-end-line="21" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cache/RedisTemplateUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/filter/LoginFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/util/KaptchaConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/IndexGoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/util/AjaxResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1826">
-          <caret line="86" column="36" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
-          <folding>
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#1599#1600#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/util/CaptchaUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/filter/AccessFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/util/JwtUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web/WEB-INF/html/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -839,40 +826,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/intercept/HeaderTokenInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/filter/CrosFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="193" column="25" selection-start-line="193" selection-start-column="25" selection-end-line="193" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/intercept/HeaderTokenInterceptor.java" />
     <entry file="jar://$USER_HOME$/.m2/repository/com/github/penggle/kaptcha/2.3.2/kaptcha-2.3.2.jar!/com/google/code/kaptcha/text/impl/DefaultWordRenderer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -882,65 +836,258 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mykaptcha.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="220">
           <caret line="10" column="62" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/HotList.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/IndexGoodsService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/IndexGoodsDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-task.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/serviceImpl/CarouselServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/IndexGoodsController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/serviceImpl/IndexGoodsServiceImpl.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdkx64/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="164" column="12" selection-start-line="164" selection-start-column="8" selection-end-line="164" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/HotListDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="26" column="72" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/serviceImpl/HotListServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/CarouselCron.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" selection-start-line="24" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/IndexGoodsMapping.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/IndexGoods.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/HotListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/CarouselService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/CarouselMapping.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/HotList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/mybatis-config.xml" />
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdkx64/src.zip!/javax/management/remote/rmi/RMIConnectionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="1400" selection-start-line="1400" selection-end-line="1400" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/test/IndexGoodsServiceImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/HotListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/util/JwtUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/HotListMapping.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cache/RedisUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cache/RedisTemplateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/Carousel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/page/TableDataInfo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/page/Page.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="59" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4268">
+          <caret line="194" column="21" selection-start-line="194" selection-start-column="21" selection-end-line="194" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/filter/CrosFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/HotListCron.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/CarouselDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/UserInfoDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="484">
+          <caret line="31" column="75" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/service/UserInfoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/service/serviceImpl/UserInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="594">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserInfoMapping.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="638">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/UserInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="65" column="48" lean-forward="true" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="933">
+          <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/CarouselController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -950,11 +1097,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>school_shop:war</last-edited>
+          <last-edited>school_shop:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.62009066" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1009,7 +1157,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.alibaba:druid:1.1.14</last-edited>
+          <last-edited>Maven: junit:junit:4.10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

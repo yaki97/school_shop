@@ -7,6 +7,7 @@
 package com.dao;
 
 import com.pojo.UserInfo;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -25,4 +26,8 @@ public interface UserInfoDao {
     public UserInfo loginUser(UserInfo userInfo);
 
     public int findUserByUsername(String username);
+
+    public List<UserInfo> findUserByType(@Param("userType") int userType,@Param("pageIndex") int pageIndex,@Param("pageSize") int pageSize);
+
+    public List<UserInfo> findAllUserByType(@Param("userType") int userType);
 }

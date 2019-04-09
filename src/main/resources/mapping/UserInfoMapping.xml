@@ -21,7 +21,15 @@
          values (#{userName},#{realName},#{password},#{phoneNumber},#{contactAddress},#{userType},#{status})
     </insert>
     <select id="loginUser" resultType="com.pojo.UserInfo" parameterType="com.pojo.UserInfo">
-        select * from userinfo u where u.user_name = #{userName} and u.user_type=#{userType}
+        select u.* from userinfo u where u.user_name = #{userName} and u.user_type=#{userType}
+    </select>
+
+    <select id="findUserByType" resultMap="UserInfoResult">
+        select u.* from userinfo u where u.user_type = #{userType} limit #{pageIndex},#{pageSize}
+    </select>
+
+    <select id="findAllUserByType" resultMap="UserInfoResult">
+        select u.* from userinfo u where u.user_type = #{userType}
     </select>
 </mapper>
 
